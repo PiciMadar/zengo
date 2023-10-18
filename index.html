@@ -5,13 +5,46 @@
 	 <meta charset="UTF-8">
 	 <title>Zengő</title>
 	 <link rel="stylesheet" href="style.css">
+	 <style>
+
+		@media only screen and (max-width:600px){
+
+			#content{
+				width: 100%;
+			}
+
+			#imageright {
+				margin: auto;
+				float: none;
+				display: block;
+			}
+			#imageleft{
+				margin: auto;
+				float: none;
+				display: block;
+				width: 350px;
+			}
+
+			#imageleftimg{
+				float: none;
+				margin: auto;
+				width: 350px;
+			}
+
+		}
+
+	</style>
 </head>
 <body>
 	<div id="kozep">
 		<div id="content" >
-		<h1>A Zengő hegy <sub><a href="https://hu.wikipedia.org/wiki/Zeng%C5%91_(hegy)" target="_blank">(Wikipédia)</a></sub> </h1>
-		<img src="zengokilato.jpg" id="imageright" title="Kilátó a Zengőn" alt="Kilátó a Zengőn">
+	
 		
+		<h1>A Zengő hegy <sub><a href="https://hu.wikipedia.org/wiki/Zeng%C5%91_(hegy)" target="_blank">(Wikipédia)</a></sub> </h1>
+		<div id="imageright">
+			<img src="zengokilato.jpg" id="imagerightimg" title="Kilátó a Zengőn" alt="Kilátó a Zengőn">
+			<p class="kepszoveg">Kilátó a Zengőn</p>
+			</div>
 		<p>A Zengő a Mecsek legmagasabb hegye. Pécstől északkeleti irányban, a Kelet-Mecsek legkevésbé bolygatott tájain fekszik, magassága 682 méter. Déli szomszédja a Hosszúhetény fölé magasodó Hármashegy. Alkotó kőzetei a permi homokkő, a jura és triász mészkő. A hegy egyben Baranya megye legmagasabb pontja is.</p>
 
 		<p>Nevének ma már ritkán használt helyi ejtésváltozata Zöngő, középkori neve Vas-hegy. A lábainál elterülő mai és egykori települések: Hosszúhetény, Kisújbánya, Pécsvárad, Pusztabánya, Püspökszentlászló, Zengővárkony, Zobákpuszta. A Zengőalja régiót települések ennél jóval szélesebb körére szokták értelmezni.</p>
@@ -19,10 +52,13 @@
 		<p>A hegyhez népmondák, legendák, népszokások sora kötődik. Nevét a népmonda azzal magyarázza, hogy a hegy zúgását a belsejében rekedt kincskeresők kiabálása okozza, mások szerint a hegy erdein és völgyein zenélő szél hangja lehet a név eredete.</p>
 
 		<p>A Zengő oldalán, a híres zengővárkonyi szelídgesztenyésben van <i id="kiemeles">Rockenbauer Pál</i> természetjáró, televíziós szerkesztő sírja. Ez az ország egyik legnagyobb és leghíresebb szelídgesztenye ligeterdeje, több száz éves példányokkal. </p>
-		<p class="kepszoveg">Kilátó a Zengőn</p>
+
 		<h2>A Zengőhöz kötődő mondák</h2>
-		<img id="imageleft"	src="marevar.jpg" title="Máré vára" alt="Máré vára">
-		<p class="kepszoveg">Máré Vára</p>
+		<div id="imageleft">
+			<img id="imageleftimg"	src="marevar.jpg" title="Máré vára" alt="Máré vára">
+			<p class="kepszoveg">Máré Vára</p>
+		</div>
+		
 
 		<ul>
 			<li>

@@ -13,19 +13,35 @@ body{
 
 #content{
 	width: 888px;
-
 }
 #imageright{
 	margin-left: 20px;
     width: 300px;
     float: right;
+    height: 400px;
+    border-radius: 10%;
+    border: 2px forestgreen solid;
+    background-color: wheat;
+}
+
+#imagerightimg{
+    width: 300px;
     height: 350px;
     border-radius: 10%;
 }
+
+
 #imageleft{
 	margin-right: 40px;
     margin-bottom: 80px;
     float: left;
+    height: 350px;
+    border-radius: 10%;
+    border: 2px forestgreen solid;
+    background-color: wheat;
+}
+
+#imageleftimg{
     height: 300px;
     border-radius: 10%;
 }
